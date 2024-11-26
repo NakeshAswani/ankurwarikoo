@@ -1,0 +1,372 @@
+@media only screen and (min-width: 200px) and (max-width: 575px)
+{
+    :root{
+        --color1: #ffc347;
+        --color2: #3f1979;
+        --color3: #c4def5;
+        --color4: #f0edf4;
+        --color5: #f1ebf9;
+        --color6: #d3ceda;
+        --backcolor: #e4f2ff;
+        --gradcolor: linear-gradient(92.73deg,#AC79EA -0.55%,#3F1979 94.41%);
+        --padd: 60px 20px;
+        --width: 1170px;
+    }
+    .mobileFixed{
+        display: block;
+    }
+    header figure{
+        width: 88px;
+    }
+    .bannerInner{
+        padding: 20px 20px 40px 20px;
+    }
+    .bannerTop{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .bannerTop>.bannerTopRight{
+        display: none;
+    }
+    .bannerTopLeft figure:first-child{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .bannerTopLeft .bannerTopRight{
+        display: block;
+        width: 100%;
+    }
+    .bannerTopLeft .bannerTopRight .effcomvideo{
+        height: 209px;
+    }
+    .bannerTopLeft .bannerTopRight figcaption{
+        padding: 0px 10px;
+        padding-bottom: 20px;
+    }
+    .bannerTopLeft .bannerTopRight figcaption button{
+        font-size: 13px;
+    }
+    .bannerTopLeft h3{
+        font-size: 13px;
+        text-align: center;
+    }
+    .bannerTopLeft article{
+        text-align: center;
+    }
+    .bannerInner .bannerTop:last-child{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .courceIfInner{
+        padding: var(--padd);
+    }
+    .sectionHeading h2{
+        font-size: 23px;
+    }
+    .courceIfBox{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .cifAccess article{
+        width: 100%;
+        padding: 20px;
+    }
+    .cifAccess article h3{
+        font-size: 18px;
+    }
+    .cifAccess a button{
+        width: 80%;
+        font-size: 13px;
+        margin: 0px 10%;
+    }
+    .transformYourselfInner h3{
+        font-size: 16px;
+    }
+    .transformYourselfInner span{
+        font-size: 25px;
+    }
+    .transformYourselfInner article{
+        font-size: 14px;
+    }
+    .ecBox{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        flex-wrap: nowrap;
+    }
+    .ecBlockHead h3{
+        font-size: 13px;
+    }
+    .courceHelpInner .courceIfBox .courceIfBlock{
+        margin-bottom: 0px;
+    }
+    .courceIfBlock article{
+        font-size: 15px;
+    }
+    .coachInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .studentSayBox{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .studentSayBox .studentSayBlock:nth-child(3),.studentSayBox .studentSayBlock:nth-child(4){
+        display: none;
+    }
+    .studentSayBox>i{
+        left: 2%;
+    }
+    .studentSayBox>i:last-child{
+        left: 88.5%;
+    }
+    .choosePlanInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .planBlock{
+        margin-bottom: 20px;
+    }
+    .planCompChart{
+        overflow: scroll;
+    }
+    .comparison .planBlockHead{
+        width: max-content;
+        padding: 15px 20px;
+    }
+    .comparison .planBlockHead article{
+        font-size: 16px;
+    }
+    .comparison .planBlockHead h2{
+        font-size: 20px;
+    }
+    .comparison tr td button{
+        font-size: 13px;
+    }
+    .certifiedInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        text-align: center;
+    }
+    .certifiedInner figcaption .cifAccess button{
+        width: 80%;
+    }
+    .moneyBack{
+        text-align: left;
+        padding: 15px;
+    }
+    .moneyBack .sectionHeading h2{
+        text-align: left;
+    }
+    .moneyBack .sectionHeading h2 span{
+        margin: 20px 0px 40px 0px;
+    }
+    .faqInner{
+        padding-bottom: 80px;
+    }
+}
+@media only screen and (min-width: 575px) and (max-width: 991px)
+{
+    :root{
+        --color1: #ffc347;
+        --color2: #3f1979;
+        --color3: #c4def5;
+        --color4: #f0edf4;
+        --color5: #f1ebf9;
+        --color6: #d3ceda;
+        --backcolor: #e4f2ff;
+        --gradcolor: linear-gradient(92.73deg,#AC79EA -0.55%,#3F1979 94.41%);
+        --padd: 60px 22px;
+        --width: 1170px;
+    }
+    header figure{
+        width: 88px;
+    }
+    .bannerInner{
+        padding: 20px 20px 40px 20px;
+    }
+    .bannerTop{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .bannerTop>.bannerTopRight{
+        display: none;
+    }
+    .bannerTopLeft figure:first-child{
+        width: 41%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .bannerTopLeft .bannerTopRight{
+        display: block;
+        width: 100%;
+    }
+    .bannerTopLeft .bannerTopRight .effcomvideo{
+        height: 410px;
+    }
+    .bannerTopLeft .bannerTopRight .effcomvideo video{
+        height: 100%;
+    }
+    .bannerTopLeft .bannerTopRight figcaption{
+        padding: 0px 10px;
+        padding-bottom: 20px;
+    }
+    .bannerTopLeft .bannerTopRight figcaption button{
+        font-size: 14px;
+    }
+    .bannerTopLeft h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .bannerTopLeft h3 br{
+        display: none;
+    }
+    .bannerTopLeft article{
+        text-align: center;
+    }
+    .bannerInner .bannerTop:last-child{
+        flex-direction: row;
+    /* vendor prefix begin */
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+        -o-flex-direction: row;
+        -ms-flex-direction: row;
+    /* vendor prefix end */
+        flex-wrap: wrap;
+    }
+    .bannerBlock{
+        flex-basis: 48.5%;
+    /* vendor prefix begin */
+        -webkit-flex-basis: 48.5%;
+        -moz-flex-basis: 48.5%;
+        -o-flex-basis: 48.5%;
+        -ms-flex-basis: 48.5%;
+    /* vendor prefix end */
+    }
+    .cifAccess article{
+        width: 75%;
+    }
+    .cifAccess a button{
+        width: 40%;
+        margin: 0px 30%;
+    }
+    .transformYourselfInner h3{
+        font-size: 21px;
+    }
+    .ecBox{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+    }
+    .coachInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        gap: 20px;
+    }
+    .studentSayBox .studentSayBlock:nth-child(4){
+        display: none;
+    }
+    .studentSayBox .studentSayBlock{
+        flex-basis: 48%;
+    }
+    .studentSayBox>i{
+        left: 1%;
+    }
+    .studentSayBox>i:last-child{
+        left: 94%;
+    }
+    .choosePlanInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        gap: 20px;
+    }
+    .planBlockPrice{
+        width: 25%;
+    }
+    .comparison .planBlockHead{
+        padding: 15px 10px;
+    }
+    .comparison .planBlockHead article{
+        font-size: 20px;
+    }
+    .comparison .planBlockHead h2{
+        font-size: 20px;
+    }
+    .comparison tr td button{
+        font-size: 15px;
+    }
+    .certifiedInner{
+        flex-direction: column;
+    /* vendor prefix begin */
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -o-flex-direction: column;
+        -ms-flex-direction: column;
+    /* vendor prefix end */
+        gap: 25px;
+        text-align: center;
+    }
+    .moneyBack{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
